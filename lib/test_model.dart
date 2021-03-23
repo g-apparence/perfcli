@@ -38,6 +38,10 @@ class BatchTestResult {
   int get nbErrors => results
     .where((element) => element != null && !element.success)
     .length;
+
+  int get nbSuccess => results
+    .where((element) => element != null && element.success)
+    .length;  
 }
 
 class TestResult {

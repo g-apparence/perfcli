@@ -89,7 +89,7 @@ Future<TestResult> sendRequest(
       startingTime: startTime,
       endingTime: endTime,
       url: urlPath,
-      success: response.statusCode >= 200 && response.statusCode < 300
+      success: response != null && response?.statusCode >= 200 && response?.statusCode < 300
     );
   }
 }

@@ -91,6 +91,7 @@ Future _sendOneBatch(String urlOption, int nbThreadOption, String token, bool ra
   stdout.writeln('- ${batchRes.min.inMilliseconds}ms min');
   stdout.writeln('- ${batchRes.max.inMilliseconds}ms max');
   stdout.writeln('- ${batchRes.averageMs}ms average');
+  stdout.writeln('- ${batchRes.nbSuccess} success');
   stdout.writeln('- ${batchRes.nbErrors} errors');
 }
 
