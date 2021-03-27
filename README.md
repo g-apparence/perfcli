@@ -1,5 +1,40 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+## PerfCli
+**PerfCli is a basic command-line application to test response time of a backend url.**
+<img src="./res/progress.png" alt="progress image">
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+<img src="https://github.com/Apparence-io/emmet-cli/blob/e5396f22ae011ee5df13fc342056c5841ef822d0/doc/assets/logo.png" alt="Apparence.io logo">
+
+Developed with 💙 by Apparence.io
+
+## Installing 
+```
+dart pub global activate percli
+```
+
+#### Test an url with 100 parallel requests
+```
+dart run bin/perfcli.dart -u http://myurl.com  -t 100
+```
+
+#### Test an url with 100 parallel requests for 10 seconds
+```
+dart run bin/perfcli.dart -u http://myurl.com  -t 100 -r 100
+```
+
+#### Show help 
+Creates only html version
+```
+dart pub global run perfcli -h
+```
+
+## Run (uncompiled version)
+Creates only html version
+```
+dart run bin/perfcli.dart --help
+```
+
+## Compile  
+```
+dart compile exe bin/perfcli.dart
+```
+
