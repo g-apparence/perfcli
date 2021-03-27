@@ -1,7 +1,7 @@
 # PerfCli
 **PerfCli is a basic command-line application to test response time of a backend url.**
 
-<img src="./res/progress.png" alt="progress image" width="100px">
+<img src="./res/progress.png" alt="progress image" width="300px">
 
 <img src="https://github.com/Apparence-io/emmet-cli/blob/e5396f22ae011ee5df13fc342056c5841ef822d0/doc/assets/logo.png" alt="Apparence.io logo">
 
