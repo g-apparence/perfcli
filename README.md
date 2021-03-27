@@ -1,5 +1,5 @@
 # PerfCli
-**PerfCli is a basic command-line application to test response time of a backend url.**
+**PerfCli is a basic command-line application written in dart to test the response time of a backend URL.**
 
 <img src="./res/progress.png" alt="progress image" width="300px">
 

@@ -1,7 +1,8 @@
 name: perfcli
-description: A sample command-line application.
-# version: 1.0.0
-# homepage: https://www.example.com
+description: PerfCli is a basic command-line application written in dart to test the response time of a backend URL
+version: 1.0.0
+author: Apparence.io
+homepage: https://github.com/g-apparence/perfcli
 
 environment:
   sdk: '>=2.10.0 <3.0.0'
